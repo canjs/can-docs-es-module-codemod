@@ -25,6 +25,7 @@
   "can-observation": "Observation",
   "can-stache-bindings": "stacheBindings",
   "can-view-callbacks": "viewCallbacks",
+  "can-queues": "queues",
   "can-connect/all": "connect",
   "can-memory-store": "memoryStore",
   "can-realtime-rest-model": "realtimeRestModel",
