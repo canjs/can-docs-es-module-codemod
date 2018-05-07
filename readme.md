@@ -2,6 +2,12 @@
 
 These are codemods to update the CanJS documentation and demos to use ES module imports from `can`.
 
+To generate a __export-names.json__ file run this:
+
+```bash
+jscodeshift -t lib/export-names.js path/to/canjs/can.js
+```
+
 To use:
 
 __Demo page__
