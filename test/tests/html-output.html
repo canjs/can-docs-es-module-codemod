@@ -1,0 +1,22 @@
+<html>
+<title>Some title</title>
+
+<script src="../../../node_modules/steal/steal.js" dev-bundle main="@empty" id="some-demo">
+  var DefineMap = require("can-define/map/map");
+  var Component = require("can-component");
+  var route = require("can-route");
+
+  Component.extend({
+    view: `
+      <span>Hello {{name}}!</span>
+    `,
+    ViewModel: {
+      name: {
+        default: "World"
+      }
+    }
+  });
+
+  route.start();
+</script>
+</html>
