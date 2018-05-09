@@ -22,6 +22,12 @@ __Markdown doc__
 jscodeshift -t node_modules/can-docs-es-module-codemod/lib/md.js demo/some-doc.md
 ```
 
+__JavaScript source__
+
+```shell
+jscodeshift -t node_modules/can-docs-es-module-codemod/lib/js.js demo/my-component.js
+```
+
 ## License
 
 MIT

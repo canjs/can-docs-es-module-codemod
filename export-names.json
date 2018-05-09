@@ -48,6 +48,7 @@
   "can-zone": "Zone",
   "react-view-model": "reactViewModel",
   "can-view-autorender": "viewAutorender",
+  "can-fixture-socket": "fixtureSocket",
   "can-compute": "compute",
   "can-map": "CanMap",
   "can-list": "CanList",
