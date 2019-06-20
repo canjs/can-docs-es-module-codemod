@@ -1,5 +1,7 @@
 # CanJS 5.0 doc codemods
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/canjs/can-docs-es-module-codemod.svg)](https://greenkeeper.io/)
+
 These are codemods to update the CanJS documentation and demos to use ES module imports from `can`.
 
 To generate a __export-names.json__ file run this:
